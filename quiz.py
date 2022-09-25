@@ -1,4 +1,4 @@
-# https://www.youtube.com/watch?v=MRYlWPrsMYk&list=PLshkB4NQEfC7jz8Ig-JcqwjZz8WSI2s8W             hora 8:40
+
 
 print(" Quiz do Paulo ")
 answer_user = input("você que jogar ?  (S/N) ")
