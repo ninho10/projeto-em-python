@@ -1,16 +1,15 @@
-
+# MEU QUIZ EM PYTHON
 
 print(" Quiz do Paulo ")
 answer_user = input("você que jogar ?  (S/N) ")
 print(answer_user)
 
 
-
 if answer_user != "S":
     quit()     # para termina o porgrama
 
 print(" Começando o jogo.....")
-print("Qual e meu (nome)? \n (A) Roberto \n (B) Paulo \n (C) ninho \n ")
+print("Qual e meu (nome)? \n (A) Pedro \n (B) Paulo \n (C) ninho \n ")
 resposta1 = input(" Resposta : ")
 
 if resposta1 == "B":
@@ -25,12 +24,3 @@ if resposta2 == "C":
     print("Parabens Correto")
 else:
     print("Esta Errada !")
-
-
-
-
-
-
-
-
-
