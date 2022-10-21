@@ -1,0 +1,6 @@
+Nome = input('QUAL E SEU NOME FUCIONARIO --> ')
+print('###  ENTRADA E SAIDA DE MERCADORIA DA LOJA  ###')
+Pro1 = input(f'{Nome}, QUAL MERCADORIA ENTROU NA LOJA --> ')
+print(f'FUCIONARIO {Nome} ESTROU CAIXAS DE {Pro1} OU FOI POR UNIDADE')
+print('')
+CaixUnid = int(print(f' {Nome}, SE ENTRO CAIXA DIGITE [1] SE ENTRO A UNIDADE DIGITE [2]. --> '))
