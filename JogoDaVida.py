@@ -2,10 +2,10 @@
 
 def ZeroVinte():
     NumVin = 1
-    Cont = 0
+    Erro = 0
     while NumVin != 11:
-        NumVin = int(input('digite o numero que estou pensando : '))
-        Cont = Cont + 1
+        NumVin = int(input('digite o numero que estou pensando, você já errou {} : '.format(Erro)))
+        Erro = Erro + 1
 
 
 def chefe1():
