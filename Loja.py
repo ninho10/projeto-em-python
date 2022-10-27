@@ -4,7 +4,7 @@ CaixUnid = 0
 Caixa1 = 0
 QuantCaixa1 = 0
 TotalPro = 0
-
+QuantUnidade1 = 0
 
 def SenhaFun():
     while True:
@@ -33,3 +33,8 @@ if CaixUnid == 1:
         input('QUAL E A QUANTIDADE DE PRODUTOS DENTRO DA CAIXA --> '))
     TotalPro = (Caixa1 * QuantCaixa1)
     print(f'O TOTAL DE {Pro1} NO ESTOQUE E : {TotalPro}')
+
+if CaixUnid == 2:
+    QuantUnidade1 = int(
+        input('QUAL E A QUANTIDADE DE PRODUTOS --> '))
+    print(f'O TOTAL DE {Pro1} NO ESTOQUE E : {QuantUnidade1}')
