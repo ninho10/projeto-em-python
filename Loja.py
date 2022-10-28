@@ -5,6 +5,8 @@ Caixa1 = 0
 QuantCaixa1 = 0
 TotalPro = 0
 QuantUnidade1 = 0
+ProVal1 = 0
+
 
 def SenhaFun():
     while True:
@@ -21,6 +23,7 @@ print('###  ENTRADA E SAIDA DE MERCADORIA DA LOJA  ###')
 print('         ESTOQUE DE CAMISA E BERMUDAS')
 print('')
 Pro1 = input(f'{Nome}, QUAL MERCADORIA ENTROU NA LOJA --> ')
+ProVal1 = float(input(f'QUAL FOI O VALOR UNITARIO DO PRODUTO {Pro1} --> '))
 print(f'FUCIONARIO {Nome} ENTROU CAIXAS DE {Pro1} OU FOI POR UNIDADE')
 os.system('cls')
 print('')
@@ -33,8 +36,10 @@ if CaixUnid == 1:
         input('QUAL E A QUANTIDADE DE PRODUTOS DENTRO DA CAIXA --> '))
     TotalPro = (Caixa1 * QuantCaixa1)
     print(f'O TOTAL DE {Pro1} NO ESTOQUE E : {TotalPro}')
+    print('O TOTAL DE CUSTO FOI : ', TotalPro * ProVal1)
 
 if CaixUnid == 2:
     QuantUnidade1 = int(
         input('QUAL E A QUANTIDADE DE PRODUTOS --> '))
     print(f'O TOTAL DE {Pro1} NO ESTOQUE E : {QuantUnidade1}')
+    print('O TOTAL DE CUSTO FOI : ', QuantUnidade1 * ProVal1)
