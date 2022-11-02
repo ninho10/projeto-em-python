@@ -8,8 +8,8 @@ def ZeroVinte():
         NumVin = int(
             input('digite o numero que estou pensando, você já errou {} : '.format(Erro)))
         Erro = Erro + 1
-
-
+    
+             
 def chefe1():
     RespChe1 = 1
 
@@ -21,9 +21,9 @@ def chefe1():
             print('voce acabou de levar um soco assim vai perde, tente de novo')
 
 
-def jogo():
+def jogo(mensagem):
     print('-' * 30)
-    print('   ####   JOGO DA VIDA   ####')
+    print(mensagem)
     print('-' * 30)
 
 
@@ -47,14 +47,14 @@ else:
     print('me chamando para festa você ganha uma vida')
 print('')
 print('')
-jogo()
+jogo('    JOGO DA VIDA ')
 
 print('{} vou te fazer um desafio vou pensar em um numero entre 0 e 20 '.format(Nome))
 ZeroVinte()
 print('Parabéns o numero que eu pensei foi o 11 ')
 print('')
 os.system('cls')
-jogo()
+jogo('    JOGO DA VIDA ')
 
 print('Parabéns jogador {} chegamos no chefe '.format(Nome))
 print('vou te fazer uma pergunta acertando você passa de nivel.')
