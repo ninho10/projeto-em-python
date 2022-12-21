@@ -7,8 +7,8 @@ class Carteira:
 
 n1 = None
 n1 = input('Seu nome --> ')
-b1 = float(input('Qual e seu saldo bancario --> '))
-c1 = float(input('Quanto tem na sua carteira --> '))
+b1 = float(input('Qual e seu saldo bancario ? --> '))
+c1 = float(input('Quanto tem na sua carteira ? --> '))
 
 carteira1 = Carteira(n1, b1, c1)
 
