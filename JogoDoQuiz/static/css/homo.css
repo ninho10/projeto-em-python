@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body{
+    background-color: aqua;
+    background: url(./imagem/matrix1.jpg);
+    background-attachment: fixed;
+    display: block;
+}
+
+.form_fundo{
+    background-color: rgba(0, 255, 21, 0.542);
+    margin: 15% 25% 25% 25%;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 4px 6px 6px black;
+}
+
+.form_fundo:hover{
+    background-color: black;
+    margin: 15% 25% 25% 25%;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 4px 6px 6px yellowgreen;
+    color: rgb(58, 205, 50);
+
+}
+
+.form_frente{
+   background-color: rgba(100, 237, 148, 0.617); 
+   margin: 5px;
+   border-radius: 20px;
+   font-weight: bold;
+   box-shadow: 4px 6px 6px black;
+   padding: 10px;
+}
+
+label{
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input{
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input:focus{
+    background-color: rgb(43, 150, 226);
+    color: black;
+}
+
+button{
+   width: 140px; 
+   font-size: 20px; 
+   font-weight: bold;
+   border-radius: 20px;
+   background-color: rgba(153, 205, 50, 0.317);
+
+}
+
+button:hover{
+    background-color: black;
+    color: yellowgreen;
+    width: 150px; 
+   font-size: 30px;
+}
