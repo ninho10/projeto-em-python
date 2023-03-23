@@ -16,9 +16,11 @@ def login():
 
     nome = request.form.get('nome')
     senha = request.form.get('senha')
-    print(nome)
-    print(senha)
-    return redirect('/')
+
+    if (nome == 'paulo') and (senha == '123'):
+        return render_template("usuario.html")
+    else:
+        return redirect('/')
 
 
 if __name__ in "__main__":
