@@ -2,23 +2,25 @@ from flask import Flask, render_template, redirect, request
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'PAULO'
+app.config['SECRET_KEY'] = 'NINHO'
 
 
-@app.route('/')
+@app.route('/login2')
 def home():
 
-    return render_template('login.html')
+    return render_template('login2.html')
 
 
-@app.route('/login', methods=['POST'])
-def login():
+@app.route('/login2', methods=['POST'])
+def login2():
 
     nome = request.form.get('nome')
     senha = request.form.get('senha')
-    print(nome)
-    print(senha)
-    return redirect('/')
+
+    if nome == 'ninho' and senha == '123':
+        return render_template('quiz.py')
+    else:
+        return redirect('/login2')
 
 
 if __name__ in "__main__":

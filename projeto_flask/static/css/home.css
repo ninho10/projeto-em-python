@@ -7,9 +7,21 @@ body{
     display: block;
 }
 
+.flash_alerta{
+    background-color: rgba(222, 9, 52, 0.945);
+    color: black;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 30px;
+    font-size: 20px; 
+}
+
 #form_fundo{
     background-color: rgba(0, 0, 255, 0.579);
-    margin: 15% 25% 25% 25%;
+    margin: 10% 25% 25% 25%;
     text-align: center;
     border-radius: 20px;
     font-weight: bold;

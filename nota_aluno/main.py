@@ -37,11 +37,18 @@ while True:
         print(' ÁRIA DO PROFESSOR')
         loginProfessor = input('Login --> ')
         senhaProfessor = input('Senha --> ')
-        teste = input('..............')
 
     elif (escolhaMenur == '2'):
         os.system('cls')
+        nomeEscola()
         print('Ària de alunos')
+        loginAluno = input('Login -->')
+        senhaAluno = input('Senha --> ')
+
+        os.system('cls')
+        nomeEscola()
+        mudar = input(
+            'Disciplina1     Disciplina2         Media          Faltas')
 
     else:
         os.system('cls')
